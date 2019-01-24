@@ -31,6 +31,12 @@
 		D337972E224E38B400FECA2C /* GBDeviceInfoTypes_Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A3F56AC1A9761BD00B84D6F /* GBDeviceInfoTypes_Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D337972F224E38B700FECA2C /* GBDeviceInfoInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A3F56AE1A97627700B84D6F /* GBDeviceInfoInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3379730224E38C000FECA2C /* GBDeviceInfo-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 8A38F59A162DA1C100BCF240 /* GBDeviceInfo-Prefix.pch */; };
+		B299520121F8B06F00BD1EF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B299520021F8B06F00BD1EF0 /* AppDelegate.m */; };
+		B299520421F8B06F00BD1EF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B299520321F8B06F00BD1EF0 /* ViewController.m */; };
+		B299520721F8B06F00BD1EF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B299520521F8B06F00BD1EF0 /* Main.storyboard */; };
+		B299520921F8B07000BD1EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B299520821F8B07000BD1EF0 /* Assets.xcassets */; };
+		B299520C21F8B07000BD1EF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B299520A21F8B07000BD1EF0 /* LaunchScreen.storyboard */; };
+		B299520F21F8B07000BD1EF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B299520E21F8B07000BD1EF0 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,7 +73,21 @@
 		8A3F56E91A977E9F00B84D6F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		8A3F56EB1A977EA500B84D6F /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		8A521B291701CE7800A89BE4 /* GBDeviceInfo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GBDeviceInfo-Info.plist"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		D3379720224E382600FECA2C /* GBDeviceInfo_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GBDeviceInfo_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
+		B29951FD21F8B06F00BD1EF0 /* GBDeviceTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBDeviceTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29951FF21F8B06F00BD1EF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B299520021F8B06F00BD1EF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B299520221F8B06F00BD1EF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B299520321F8B06F00BD1EF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B299520621F8B06F00BD1EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B299520821F8B07000BD1EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B299520B21F8B07000BD1EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B299520D21F8B07000BD1EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B299520E21F8B07000BD1EF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B299521521F8B20500BD1EF0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+>>>>>>> add testing target
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +108,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		D337971D224E382600FECA2C /* Frameworks */ = {
+=======
+		B29951FA21F8B06F00BD1EF0 /* Frameworks */ = {
+>>>>>>> add testing target
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -130,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				8A38F598162DA1C100BCF240 /* GBDeviceInfo */,
+				B29951FE21F8B06F00BD1EF0 /* GBDeviceTest */,
 				8A38F595162DA1C100BCF240 /* Frameworks */,
 				8A38F594162DA1C100BCF240 /* Products */,
 			);
@@ -140,7 +165,11 @@
 			children = (
 				8A38F593162DA1C100BCF240 /* libGBDeviceInfo.a */,
 				8A1B118D16F21F2E00BDDD2A /* GBDeviceInfo.framework */,
+<<<<<<< HEAD
 				D3379720224E382600FECA2C /* GBDeviceInfo_iOS.framework */,
+=======
+				B29951FD21F8B06F00BD1EF0 /* GBDeviceTest.app */,
+>>>>>>> add testing target
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,6 +216,23 @@
 				8A3052661AC1B77E0077F3BF /* GBDeviceInfo_Subclass.h */,
 			);
 			name = Common;
+			sourceTree = "<group>";
+		};
+		B29951FE21F8B06F00BD1EF0 /* GBDeviceTest */ = {
+			isa = PBXGroup;
+			children = (
+				B29951FF21F8B06F00BD1EF0 /* AppDelegate.h */,
+				B299520021F8B06F00BD1EF0 /* AppDelegate.m */,
+				B299520221F8B06F00BD1EF0 /* ViewController.h */,
+				B299520321F8B06F00BD1EF0 /* ViewController.m */,
+				B299521521F8B20500BD1EF0 /* PrefixHeader.pch */,
+				B299520521F8B06F00BD1EF0 /* Main.storyboard */,
+				B299520821F8B07000BD1EF0 /* Assets.xcassets */,
+				B299520A21F8B07000BD1EF0 /* LaunchScreen.storyboard */,
+				B299520D21F8B07000BD1EF0 /* Info.plist */,
+				B299520E21F8B07000BD1EF0 /* main.m */,
+			);
+			path = GBDeviceTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +304,7 @@
 			productReference = 8A38F593162DA1C100BCF240 /* libGBDeviceInfo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+<<<<<<< HEAD
 		D337971F224E382600FECA2C /* GBDeviceInfo_iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3379725224E382600FECA2C /* Build configuration list for PBXNativeTarget "GBDeviceInfo_iOS" */;
@@ -266,15 +313,31 @@
 				D337971C224E382600FECA2C /* Sources */,
 				D337971D224E382600FECA2C /* Frameworks */,
 				D337971E224E382600FECA2C /* Resources */,
+=======
+		B29951FC21F8B06F00BD1EF0 /* GBDeviceTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B299521221F8B07000BD1EF0 /* Build configuration list for PBXNativeTarget "GBDeviceTest" */;
+			buildPhases = (
+				B29951F921F8B06F00BD1EF0 /* Sources */,
+				B29951FA21F8B06F00BD1EF0 /* Frameworks */,
+				B29951FB21F8B06F00BD1EF0 /* Resources */,
+>>>>>>> add testing target
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+<<<<<<< HEAD
 			name = GBDeviceInfo_iOS;
 			productName = GBDeviceInfo_iOS;
 			productReference = D3379720224E382600FECA2C /* GBDeviceInfo_iOS.framework */;
 			productType = "com.apple.product-type.framework";
+=======
+			name = GBDeviceTest;
+			productName = GBDeviceTest;
+			productReference = B29951FD21F8B06F00BD1EF0 /* GBDeviceTest.app */;
+			productType = "com.apple.product-type.application";
+>>>>>>> add testing target
 		};
 /* End PBXNativeTarget section */
 
@@ -282,11 +345,19 @@
 		8A38F58A162DA1C100BCF240 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+<<<<<<< HEAD
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Luka Mirosevic";
 				TargetAttributes = {
 					D337971F224E382600FECA2C = {
 						CreatedOnToolsVersion = 10.2;
+=======
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Luka Mirosevic";
+				TargetAttributes = {
+					B29951FC21F8B06F00BD1EF0 = {
+						CreatedOnToolsVersion = 10.1;
+>>>>>>> add testing target
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -298,6 +369,7 @@
 			knownRegions = (
 				English,
 				en,
+				Base,
 			);
 			mainGroup = 8A38F588162DA1C100BCF240;
 			productRefGroup = 8A38F594162DA1C100BCF240 /* Products */;
@@ -306,7 +378,11 @@
 			targets = (
 				8A38F592162DA1C100BCF240 /* GBDeviceInfo-iOS */,
 				8A1B118C16F21F2E00BDDD2A /* GBDeviceInfo-OSX */,
+<<<<<<< HEAD
 				D337971F224E382600FECA2C /* GBDeviceInfo_iOS */,
+=======
+				B29951FC21F8B06F00BD1EF0 /* GBDeviceTest */,
+>>>>>>> add testing target
 			);
 		};
 /* End PBXProject section */
@@ -319,10 +395,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		D337971E224E382600FECA2C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+=======
+		B29951FB21F8B06F00BD1EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B299520C21F8B07000BD1EF0 /* LaunchScreen.storyboard in Resources */,
+				B299520921F8B07000BD1EF0 /* Assets.xcassets in Resources */,
+				B299520721F8B06F00BD1EF0 /* Main.storyboard in Resources */,
+>>>>>>> add testing target
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,16 +433,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		D337971C224E382600FECA2C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D337972A224E387F00FECA2C /* GBDeviceInfo_iOS.m in Sources */,
 				D337972C224E38AC00FECA2C /* GBDeviceInfo_Common.m in Sources */,
+=======
+		B29951F921F8B06F00BD1EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B299521421F8B13400BD1EF0 /* GBDeviceInfo_iOS.m in Sources */,
+				B299520421F8B06F00BD1EF0 /* ViewController.m in Sources */,
+				B299521321F8B12F00BD1EF0 /* GBDeviceInfo_Common.m in Sources */,
+				B299520F21F8B07000BD1EF0 /* main.m in Sources */,
+				B299520121F8B06F00BD1EF0 /* AppDelegate.m in Sources */,
+>>>>>>> add testing target
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B299520521F8B06F00BD1EF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B299520621F8B06F00BD1EF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B299520A21F8B07000BD1EF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B299520B21F8B07000BD1EF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8A1B119E16F21F2E00BDDD2A /* Debug */ = {
@@ -547,9 +664,16 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 		D3379726224E382600FECA2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+=======
+		B299521021F8B07000BD1EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+>>>>>>> add testing target
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -574,6 +698,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+<<<<<<< HEAD
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -582,17 +707,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+=======
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+>>>>>>> add testing target
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+<<<<<<< HEAD
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GBDeviceInfo/GBDeviceInfo-Prefix.pch";
+=======
+				GCC_PREFIX_HEADER = GBDeviceTest/PrefixHeader.pch;
+>>>>>>> add testing target
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
+<<<<<<< HEAD
 				INFOPLIST_FILE = "GBDeviceInfo/GBDeviceInfo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
@@ -614,6 +749,23 @@
 		D3379727224E382600FECA2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+=======
+				INFOPLIST_FILE = GBDeviceTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = sw.GBDeviceTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B299521121F8B07000BD1EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+>>>>>>> add testing target
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -638,6 +790,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+<<<<<<< HEAD
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
@@ -647,17 +800,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+=======
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+>>>>>>> add testing target
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+<<<<<<< HEAD
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GBDeviceInfo/GBDeviceInfo-Prefix.pch";
+=======
+				GCC_PREFIX_HEADER = GBDeviceTest/PrefixHeader.pch;
+>>>>>>> add testing target
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
+<<<<<<< HEAD
 				INFOPLIST_FILE = "GBDeviceInfo/GBDeviceInfo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
@@ -672,6 +836,16 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+=======
+				INFOPLIST_FILE = GBDeviceTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = sw.GBDeviceTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+>>>>>>> add testing target
 			};
 			name = Release;
 		};
@@ -705,11 +879,19 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		D3379725224E382600FECA2C /* Build configuration list for PBXNativeTarget "GBDeviceInfo_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3379726224E382600FECA2C /* Debug */,
 				D3379727224E382600FECA2C /* Release */,
+=======
+		B299521221F8B07000BD1EF0 /* Build configuration list for PBXNativeTarget "GBDeviceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B299521021F8B07000BD1EF0 /* Debug */,
+				B299521121F8B07000BD1EF0 /* Release */,
+>>>>>>> add testing target
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
