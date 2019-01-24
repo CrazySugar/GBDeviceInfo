@@ -4,6 +4,13 @@ Detects the hardware, software and display of the current iOS or Mac OS X device
 
 ![Version](https://img.shields.io/cocoapods/v/GBDeviceInfo.svg?style=flat)&nbsp;![License](https://img.shields.io/badge/license-Apache_2-green.svg?style=flat)
 
+
+fork & update: add simulator support
+------------
+
+### support to get device info using iOS simulator
+
+
 iOS
 ------------
 
